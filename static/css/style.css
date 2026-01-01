@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  background: radial-gradient(circle at 50% 20%, #0f0f1a, #050510 80%);
+  color: #eaeaea;
+  font-family: 'Poppins', sans-serif;
+}
+.text-neon {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 20px #0099ff;
+}
+.card.stat {
+  background: #101020;
+  border: 1px solid #00ffff;
+  border-radius: 12px;
+  padding: 15px;
+  transition: 0.3s;
+}
+.card.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffff33;
+}
+.table-dark {
+  background: #0f0f1f;
+}
+.btn-outline-info {
+  border-color: #00ffff;
+  color: #00ffff;
+}
+.btn-outline-info:hover {
+  background: #00ffff;
+  color: #000;
+}
